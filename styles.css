@@ -40,14 +40,55 @@ body{
 }
 
 
-/* CONTENT 
+/* CONTENT */
 
 #content{
+    display: flex;
+    flex-direction: column;
 
 }
+.hero-section{
+    display: flex;
+    background-color: #1F2937;
+    width: 100%;   
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    padding: 32px;
+    width: 70%;
 
-*/
+    display: flex;
 
+    column-gap: 16px;
+}
+.hero-text{
+    color:#F9FAF8;
+    min-width: 200px;
+}
+.hero-text>h1,
+.hero-text>p{
+    margin: 5px 0px 5px 0px;
+}
+.hero-text>p{
+    color: #e5e7ebd8;
+}
+.hero-text>button{
+    padding: 8px 24px;
+    background-color: #3382F6;
+    color: #F9FAF8;
+    border:#3382F6;
+    
+}
+.hero-img{
+    display: flex;
+
+}
+.hero-img>img{
+    flex: 1,1,auto;
+    width: 500px;
+    height: 300px;
+}
 
 
 /* FOOTER */
