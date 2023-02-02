@@ -154,6 +154,34 @@ body{
     font-weight: 700;
 }
 
+.call-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-content{
+    display:flex;
+    gap: 32px;
+    align-items: center;
+    background-color: #3382F6;
+    color:#E5E7EB;
+    margin: 48px;
+    padding: 8px 64px;
+}
+.call-text>p{
+    font-size: 10px;
+    color: #E5E7EB;
+}
+.call-text>h4{
+    margin: 0px;
+}
+.call-button>button{
+    background-color: #3382F6;
+    border: 2px solid #E5E7EB;
+    padding: 6px 8px;
+    color: #E5E7EB;
+}
+
 
 /* FOOTER */
 
